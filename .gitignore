@@ -14,10 +14,14 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
+*.properties
 .idea
 *.iws
 *.iml
 *.ipr
+mysql-connector-java-5.1.47.jar
+mysql-connector-java-5.1.49.jar
+mysql-connector-java-8.0.12.jar
 
 ### NetBeans ###
 /nbproject/private/

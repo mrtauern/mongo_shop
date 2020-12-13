@@ -3,6 +3,7 @@ package com.database.mongo_shop.models;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 import javax.persistence.Basic;
 import javax.persistence.Column;
@@ -18,7 +19,10 @@ public class Products {
 
     @Id
     private String id;
+
+    @Field("create_date")
     private String createDate;
+
     private String name;
     private String picture;
     private Integer weight;
