@@ -66,8 +66,8 @@ public class Orders {
     @Field("order_zip")
     private String orderZip;
 
-    @Field("credit_card")
-    private CreditCards creditCard;
+    @Field("userId")
+    private String userId;
 
     @Field("items")
     private List<Items> items;

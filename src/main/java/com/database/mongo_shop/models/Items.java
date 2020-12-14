@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @ToString
 public class Items {
+    private String productId;
     private String name;
     private double price;
     private Integer quantity;
